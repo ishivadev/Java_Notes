@@ -1,0 +1,55 @@
+✅ Interview Answer — Class
+
+A Class is a blueprint or template that defines properties (variables/data) and behaviors (methods/actions) for objects.
+It does not occupy memory until an object is created.
+
+Example:
+
+class Student {
+    int rollNo;
+    String name;
+    void study() {}
+}
+
+Here, Student is a class — it only defines data and behavior, but does not store actual values.
+
+
+
+✅ Interview Answer — Object
+
+An Object is a real-time instance of a class that occupies memory and stores actual data.
+An object can access the methods defined in the class.
+
+Example:
+
+Student s1 = new Student();
+s1.rollNo = 101;
+s1.name = "Shiva";
+s1.study();
+
+s1 is an object — it stores data and uses methods defined in the class.
+
+
+
+🌟 One-line difference (very effective in interviews)
+Class								Object
+A blueprint or template				A real instance created from a class
+No memory allocated					Memory allocated
+Defines variables & methods			Stores values and can call methods
+
+
+
+🔥 Small story format (optional but impressive)
+
+Class = Design / Plan (example: Car blueprint)
+
+Object = Real item created from design (example: Actual car we drive)
+
+
+
+🎤 Final short answer to speak in interview
+
+- A Class is a blueprint that defines variables and methods. It doesn’t store values until an object is created.
+- An Object is an instance of a class that occupies memory, stores data, and can access the methods defined in the class.
+
+

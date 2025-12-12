@@ -1,0 +1,32 @@
+✅ What is a Keyword in Java?
+
+A keyword in Java is a reserved word that has a predefined meaning for the Java compiler.
+It cannot be used as a variable name, class name, or method name, because Java uses it internally for specific purposes.
+
+
+
+🔹 Why do we use Keywords?
+
+Because they:
+
+Define the structure of Java programs
+
+Specify data types, control flow, class behavior, object creation, memory management, etc.
+
+
+
+🔹 Types of Keywords (Grouped)
+Category				Example Keywords														Purpose
+--------				----------------														-------
+Data type				int, float, double, boolean, char										Declare variables
+Class / Object			class, interface, extends, implements, new, this, super					Define and manage OOP concepts
+Access control			public, private, protected												Control visibility
+Control flow			if, else, switch, case, for, while, do, break, continue, return			Change program execution flow
+Memory / Modifier		static, final, abstract, synchronized, volatile							Modify behavior of variables/methods
+Exception handling		try, catch, finally, throw, throws										Error handling
+Others					void, package, import, instanceof, enum, transient						Special functionality
+
+➡️ Java has 67 keywords in total (including reserved but unused keywords like goto, const).
+
+
+

@@ -1,0 +1,38 @@
+🔥 Access Modifiers in Java
+
+Access Modifiers define visibility / accessibility level of classes, variables, constructors, and methods.
+
+📌 Types of Access Modifiers
+Access Modifier			Visibility			Accessible From
+public					Everywhere			Same class, same package, different package, subclasses
+protected				Limited				Same class, same package, different package (only through inheritance)
+(default) / no keyword	Package-private		Same class, same package only
+private					Most restricted		Only within same class
+
+
+🧠 Why do we use Access Modifiers?
+
+To achieve:
+Encapsulation
+Security of data
+Controlled access to class members
+Code reusability and inheritance control
+
+🏷️ Where do we use Access Modifiers?
+Keyword				Used With
+public				class, constructor, method, variable
+protected			constructor, method, variable (not class)
+(default)			class, constructor, method, variable
+private				constructor, method, variable
+
+--------------------------------------------------
+
+Access Modifier
+1). public		- within class, with in the package, outside of the package, everywhere. (public variable, public method, public class)
+2). protected	- protected variable and methods can be in another class in same package only through inheritance. protected variable and methods can be used in another package only through inheritance.
+3). default		- we can access class, variable and method within the package (class Test{}, void display(), int a)
+4). private		- we can access variable and method within the class (private variable, private method)
+
+
+
+
